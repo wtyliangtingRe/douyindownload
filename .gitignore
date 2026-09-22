@@ -1,0 +1,20 @@
+# Never commit local authentication/session data
+**/cookies.json
+**/*browser-state*.json
+**/laobai*.yml
+**/*.db
+
+# Downloaded media and generated reports/logs
+media/
+Downloaded/
+*.log
+browser-diagnostic-*.json
+check-result.json
+download_manifest.jsonl
+
+# Local tool/runtime copies
+_tool/
+.venv/
+__pycache__/
+*.pyc
+uv-cache/
